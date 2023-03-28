@@ -1,0 +1,287 @@
+"<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nicolás Bertora - Psicoterapeuta</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #66EEC3;
+			color: #333;
+		}
+
+		header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			background-color: #10238c;
+			color: #fff;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 4rem;
+			margin: 0;
+			line-height: 1.2;
+		}
+
+		nav ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			margin-top: 1.5rem;
+			font-size: 1.2rem;
+			font-weight: bold;
+		}
+
+		nav li {
+			margin: 0.5rem;
+		}
+
+		nav a {
+			display: inline-block;
+			padding: 0.5rem 1rem;
+			color: #fff;
+			text-decoration: none;
+			background-color: #66D5EE;
+			border-radius: 1rem;
+			transition: all 0.2s ease-in-out;
+		}
+
+		nav a:hover {
+			background-color: #6691EE;
+		}
+
+		main {
+			margin: 2rem;
+		}
+
+		section {
+			margin: 2rem 0;
+		}
+
+		h2 {
+			font-size: 2.5rem;
+			margin: 0;
+			margin-bottom: 1rem;
+			color: #7F66EE;
+		}
+
+		p {
+			font-size: 1.2rem;
+			line-height: 1.5;
+			margin-bottom: 1rem;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			background-color: #fff;
+			padding: 2rem;
+			border-radius: 1rem;
+			box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+			margin-top: 2rem;
+		}
+
+		label {
+			font-size: 1.2rem;
+			font-weight: bold;
+			display: block;
+			margin-bottom: 0.5rem;
+			color: #333;
+		}
+
+		input, textarea {
+			font-size: 1rem;
+			padding: 0.5rem;
+			border: none;
+			background-color: #f7f7f7;
+			border-radius: 0.5rem;
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+
+		input[type="submit"] {
+			background-color: #6691EE;
+			color: #fff;
+			font-size: 1.2rem;
+			padding: 0.5rem 1rem;
+			border-radius: 1rem;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+        }
+
+	    input[type="submit"]:hover {
+		    background-color: #7F66EE;
+	    }
+
+	    .portfolio {
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		    margin-top: 2rem;
+	    }
+
+	    .portfolio img {
+		    width: 300px;
+		    height: 200px;
+		    object-fit: cover;
+		    margin: 1rem;
+		    border-radius: 1rem;
+		    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+		    transition: all 0.2s ease-in-out;
+		    cursor: pointer;
+	    }
+
+	    .portfolio img:hover {
+		    transform: scale(1.05);
+		    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+	    }
+
+	    .previous-work {
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		    margin-top: 2rem;
+	    }
+
+	    .previous-work a {
+		    display: block;
+		    background-color: #66D5EE;
+		    color: #fff;
+		    padding: 0.5rem 1rem;
+		    border-radius: 1rem;
+		    margin: 1rem;
+		    text-decoration: none;
+		    transition: all 0.2s ease-in-out;
+	    }
+
+	    .previous-work a:hover {
+		    background-color: #6691EE;
+	    }
+
+	    .social-links {
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		    margin-top: 2rem;
+	    }
+
+	    .social-links a {
+		    display: block;
+		    background-color: #7F66EE;
+		    color: #fff;
+		    padding: 0.5rem 1rem;
+		    border-radius: 1rem;
+		    margin: 1rem;
+		    text-decoration: none;
+		    transition: all 0.2s ease-in-out;
+	    }
+
+	    .social-links a:hover {
+		    background-color: #6691EE;
+	    }
+
+	    @media screen and (max-width: 768px) {
+		h1 {
+			font-size: 3rem;
+		}
+
+		nav a {
+			padding: 0.5rem;
+			font-size: 1rem;
+		}
+
+		.portfolio img {
+			width: 100%;
+			height: 150px;
+		}
+
+		.previous-work a {
+			padding: 0.5rem;
+			font-size: 1rem;
+			margin: 0.5rem;
+		}
+
+		.social-links a {
+			padding: 0.5rem;
+			font-size: 1rem;
+			margin: 0.5rem;
+		}
+	}
+
+</style>
+</head>
+<body>
+	<header>
+		<h1>Nicolás Bertora - Psicoterapeuta</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Sobre Mí</a></li>
+				<li><a href="#">Portafolio</a></li>
+				<li><a href="#">Publicaciones</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<main>
+	<section>
+		<h2>Sobre Mí</h2>
+		<p>Nicolas Bertora is a licensed psychotherapist with over 10 years of experience helping people overcome their emotional and psychological challenges. He is passionate about helping his clients achieve their goals and live fulfilling lives.</p>
+    </section>
+
+	<section>
+		<h2>Portafolio</h2>
+		<div class="portfolio">
+			<img src="https://via.placeholder.com/300x200.png?text=Proyecto+1" alt="Proyecto 1">
+			<img src="https://via.placeholder.com/300x200.png?text=Proyecto+2" alt="Proyecto 2">
+			<img src="https://via.placeholder.com/300x200.png?text=Proyecto+3" alt="Proyecto 3">
+			<img src="https://via.placeholder.com/300x200.png?text=Proyecto+4" alt="Proyecto 4">
+			<img src="https://via.placeholder.com/300x200.png?text=Proyecto+5" alt="Proyecto 5">
+			<img src="https://via.placeholder.com/300x200.png?text=Proyecto+6" alt="Proyecto 6">
+		</div>
+		<div class="previous-work">
+			<a href="#">Ver Trabajos Anteriores</a>
+		</div>
+	</section>
+
+	<section>
+		<h2>Contacto</h2>
+		<form>
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Correo Electrónico:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Mensaje:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Enviar Mensaje">
+		</form>
+		<div class="social-links">
+			<a href="#">Facebook</a>
+			<a href="#">Twitter</a>
+			<a href="#">Instagram</a>
+			<a href="#">LinkedIn</a>
+		</div>
+	</section>
+</main>
+
+<footer>
+	<p>Derechos Reservados &copy; 2023 - Nicolás Bertora</p>
+</footer>
+
+</body>
+</html>
+
+
